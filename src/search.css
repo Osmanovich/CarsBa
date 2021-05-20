@@ -1,0 +1,77 @@
+#searchBar{
+    display: flex;
+    justify-content: space-between;
+    background-color: rgba(229, 235, 241, 0.849);
+    font-size: small;
+    min-height: 60px;
+    align-items: center;
+}
+
+#loginButton{
+    display: flex;
+    margin-right: 100px;
+}
+.SearchB{
+    border-radius: 5px;
+    padding: 5px;
+}
+
+
+#menuItem{
+    height: 20px;
+    margin-top: 11px;
+}
+
+#category{
+    display: flex;
+    margin-left: 100px;
+}
+#category:hover{
+    opacity: 1;
+    background-color: rgb(197, 34, 34);
+    color: white;
+    border-radius: 10px;
+    padding: 0px 5px;
+}
+
+#searchField{
+    min-height: 30px;
+    min-width: 400px
+}
+.SearchB:hover{
+    opacity: 1;
+    background-color: rgb(197, 34, 34);
+    color: white;
+
+}
+
+.loginCredentialsContainer{
+    display: flex;
+    flex-direction: column;
+    width: 20rem;
+    height: 15rem;
+}
+
+#logout-popover{
+    width: 20rem;
+    height: 20rem;
+}
+
+#logout-popover{
+    width: 30rem;
+    height: 40rem;
+    
+}
+
+.loginCredentialsContainer{
+    padding: 1rem;
+}
+
+.nameandpass{
+    max-width: 20rem;
+}
+.miniTextLogin{
+    font-size: small;
+    color: grey;
+    margin: 0;
+}
